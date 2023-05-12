@@ -1,0 +1,56 @@
+{
+    "cocktails": [
+      {
+        "name": "Martini",
+        "instructions": "Stir 60ml of gin and 15ml of dry vermouth with ice. Strain into a chilled cocktail glass. Garnish with an olive or a lemon twist."
+      },
+      {
+        "name": "Margarita",
+        "instructions": "Shake 60ml of tequila, 30ml of orange liqueur, and 30ml of lime juice with ice. Strain into a salt-rimmed glass over ice or straight up. Garnish with a lime wedge."
+      },
+      {
+        "name": "Mojito",
+        "instructions": "Muddle 6 mint leaves and 15ml of simple syrup in a highball glass. Add 45ml of white rum and 30ml of lime juice. Fill with ice and top with soda water. Stir gently and garnish with more mint."
+      },
+      {
+        "name": "Old Fashioned",
+        "instructions": "Stir a sugar cube, a dash of Angostura bitters, and a splash of water in an old-fashioned glass until the sugar dissolves. Add 60ml of bourbon and some ice cubes. Stir until chilled and garnish with an orange peel."
+      },
+      {
+        "name": "Manhattan",
+        "instructions": "Stir 60ml of rye whiskey, 30ml of sweet vermouth, and a dash of Angostura bitters with ice. Strain into a chilled cocktail glass. Garnish with a maraschino cherry."
+      },
+      {
+        "name": "Negroni",
+        "instructions": "Stir 30ml of gin, 30ml of Campari, and 30ml of sweet vermouth with ice. Strain into an old-fashioned glass over ice. Garnish with an orange peel."
+      },
+      {
+        "name": "Daiquiri",
+        "instructions": "Shake 60ml of white rum, 30ml of lime juice, and 15ml of simple syrup with ice. Strain into a chilled cocktail glass. Garnish with a lime wedge."
+      },
+      {
+        "name": "Whiskey Sour",
+        "instructions": "Shake 60ml of bourbon, 30ml of lemon juice, and 15ml of simple syrup with ice. Strain into an old-fashioned glass over ice. Optionally, add a dash of egg white before shaking for a frothy texture. Garnish with a cherry and an orange slice."
+      },
+      {
+        "name": "Espresso Martini",
+        "instructions": "Shake 60ml of vodka, 30ml of espresso, and 15ml of coffee liqueur with ice. Strain into a chilled cocktail glass. Garnish with three coffee beans."
+      },
+      {
+        "name": "Cosmopolitan",
+        "instructions": "Shake 60ml of vodka, 30ml of cranberry juice, 15ml of lime juice, and 15ml of orange liqueur with ice. Strain into a chilled cocktail glass. Garnish with a flamed orange peel."
+      },
+      {
+        "name": "Tom Collins",
+        "instructions": "Shake 45ml of gin, 30ml of lemon juice, and 15ml of simple syrup with ice. Strain into a Collins glass over ice. Top with soda water and stir gently. Garnish with a cherry and an orange slice."
+      },
+      {
+        "name": "French 75",
+        "instructions": "Shake 45ml of gin, 15ml of lemon juice, and 7.5ml of simple syrup with ice. Strain into a Champagne flute. Top with sparkling wine and stir gently. Garnish with a lemon twist."
+      },
+      {
+        "name": "Mai Tai",
+        "instructions": "Shake 60ml of dark rum, 15ml of orange liqueur, 15ml of orgeat syrup, and 30ml of lime juice with ice. Strain into a double old-fashioned glass over crushed ice. Float 15ml of overproof rum on top. Garnish with a mint sprig and a lime shell."
+      }
+   ]
+}
