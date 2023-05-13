@@ -1,10 +1,9 @@
 <template>
     <div>
         <MainMenu class="sticky top-0" />
-        
+
         <slot />
 
-        {{ data }}
 
         <FooterSection />
     </div>
@@ -12,8 +11,7 @@
 
 <script setup>
 
-import CocktailHeroData from "../data/HeroCocktailsData.json";
-const data = CocktailHeroData;
+
 
 
 

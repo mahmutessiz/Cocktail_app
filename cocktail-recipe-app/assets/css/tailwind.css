@@ -15,7 +15,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .card-container{
-    @apply w-full flex flex-wrap gap-4 justify-around px-8 py-8 ;
+    @apply w-full flex flex-wrap gap-4 justify-center items-center px-8 py-8 ;
 }
 .card{
    @apply max-w-[24rem] min-w-[16rem] overflow-hidden rounded-lg shadow-sm bg-rose-500 shadow-black/30;
