@@ -1,14 +1,13 @@
 <template>
-
     <div>
-<MainMenu/>
+        <MainMenu class="sticky top-0" />
+        
+        <slot />
 
-<slot/>
+        {{ data }}
 
-{{ data }}
-
+        <FooterSection />
     </div>
-
 </template>
 
 <script setup>
@@ -18,23 +17,23 @@ const data = CocktailHeroData;
 
 
 
-const base_url = useRuntimeConfig();
+/* const base_url = useRuntimeConfig();
 
 
 let Dete = ref([]);
 
-const funcData= async ()=>{
+const funcData = async () => {
     const { data: response } = await useFetch(base_url.public.apiBase + "blood", {
-    
-    headers:{
-        "X-Api-Key": base_url.apiSecret
-    }
 
-});
-Dete.value = toRaw(response.value);
-} 
+        headers: {
+            "X-Api-Key": base_url.apiSecret
+        }
+
+    });
+    Dete.value = toRaw(response.value);
+}
 funcData();
-console.log(Dete);
+console.log(Dete); */
 
 </script>
 

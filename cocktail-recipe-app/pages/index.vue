@@ -1,13 +1,12 @@
 <template>
-    <div>
-  this is index.vue
-    </div>
+  <div>
+    <HeroSection />
+    <CocktailRecipeCard />
+  </div>
 </template>
 
 <script setup>
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
