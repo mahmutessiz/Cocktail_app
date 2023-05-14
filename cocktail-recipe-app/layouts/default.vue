@@ -1,6 +1,6 @@
 <template>
     <div>
-        <MainMenu class="sticky top-0" />
+        <MainMenu />
 
         <slot />
 
