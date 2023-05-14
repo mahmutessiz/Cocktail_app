@@ -13,7 +13,9 @@
                         <nuxt-link
                          :to="'/recipeApi/' + cocktail.idDrink"
                          class="border border-black/20 bg-[rgb(7,81,96)] text-white text-sm shadow-md shadow-black/30 hover:scale-105 py-1 px-2 rounded-md">
-                            <span>View more</span>
+                         <span class="flex">View more &nbsp;
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M19 10.41V15h2V7h-8v2h4.59L12 14.59L4.41 7L3 8.41l9 9z"/></svg>
+                            </span>
                         </nuxt-link>
                      </li>
                 </ul>
