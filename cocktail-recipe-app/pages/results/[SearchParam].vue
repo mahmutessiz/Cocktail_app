@@ -1,20 +1,47 @@
 <template>
-    <div>
-        <button @click="deneme">tikla</button>
-        <br>
-        <br>
-{{ cocktailData }}
+    <div class="min-h-screen">
+        <h1 class="text-center font-bold text-3xl md:text-5xl mt-8">Results</h1>
+          <div class="card-container">
+        <div class="card" v-for="cocktail in cocktailDataApi.drinks" :key="cocktail.idDrink">
+            <img :src="cocktail.strDrinkThumb" class="object-cover object-center w-full aspect-video" alt="martini image">
+            <div>
+                
+                <ul class="flex flex-col justify-between py-4 px-2">
+                    <li class="text-black font-bold text-xl"> {{ cocktail.strDrink }}</li>
+                    <li class="text-black/80 line-clamp-4"> {{ cocktail.strInstructions }} </li>
+                    <li class="w-full flex justify-end px-4 pt-4">
+                        <nuxt-link
+                         :to="'/recipeApi/' + cocktail.idDrink"
+                         class="border border-black/20 bg-[rgb(7,81,96)] text-white text-sm shadow-md shadow-black/30 hover:scale-105 py-1 px-2 rounded-md">
+                            <span>View more</span>
+                        </nuxt-link>
+                     </li>
+                </ul>
+            </div>
+        </div> 
+    </div>  
     </div>
 </template>
 
 <script setup>
-let cocktailName = ref('old fashioned');
-let cocktailData = ref([]);
+import axios from "axios";
 
-const deneme = async () => {
-    const { data: product } = await useFetch('https://www.thecocktaildb.com/api/json/v1/1/search.php?s=' + cocktailName.value);
+const route = useRoute()
 
-cocktailData.value = product
-    console.log(product);
+let cocktailName = route.params.SearchParam;
+let cocktailDataApi = ref({});
+
+
+onMounted(async () => {
+
+
+    await axios.get('https://www.thecocktaildb.com/api/json/v1/1/search.php?s=' + cocktailName).then((response)=>{
+cocktailDataApi.value = response.data;
+    });
 }
+
+)
+
+
+
 </script>

@@ -9,7 +9,7 @@
                     <li class="w-full flex justify-end px-4 pt-4">
                         <nuxt-link
                          :to="'/recipe/' + cocktail.id"
-                         class="border border-black/20 bg-rose-900 text-white text-sm shadow-md shadow-black/30 hover:scale-105 p-1 rounded-md">
+                         class="border border-black/20 bg-[rgb(7,81,96)] text-white text-sm shadow-md shadow-black/30 hover:scale-105 py-1 px-2 rounded-md">
                             <span>View more</span>
                         </nuxt-link>
                      </li>
