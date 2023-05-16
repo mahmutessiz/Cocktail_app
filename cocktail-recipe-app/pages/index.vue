@@ -8,6 +8,9 @@
 <script setup>
 
 useHead({
+  htmlAttrs: {
+    lang: 'en'
+  },
   title: "Cocktail App",
   meta: [
     {
