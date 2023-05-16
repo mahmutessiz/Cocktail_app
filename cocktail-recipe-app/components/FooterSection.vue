@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="bg-[rgb(253,242,88)]">
+        <div class="bg-[#1478fc] mt-4">
             <footer class="flex flex-wrap items-center justify-between p-3 m-auto">
                 <div class="container mx-auto flex flex-col flex-wrap items-center justify-between">
                     <ul class="flex mx-auto text-black text-center">
